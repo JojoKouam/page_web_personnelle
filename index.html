@@ -1,54 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Page Web Personnelle</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">A propos de moi</a></li>
-            <li><a href="#">Passions</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav class="navbar">
+        <div class="navigation">
+            <div class="logo">
+                <a href="#Accueil">Jo.Dev</a>
+            </div>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#about">À propos de moi</a></li>
+                <li><a href="#passions">Passions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
     <header>
-        <h1>Bienvenue</h1>
-        <h2>Développeur web et mobile</h2>
+        <h1>Bienvenue,</h1>
+        <h2>Sur ma page de présentation</h2>
     </header>
 
     <main>
-        <section>
-            <h2>A propos de moi</h2>
-            <img src="image/me.jpeg" alt="ma photo"/>
-           <div>
-            <p>Je suis actuellement en formation en développeur web et mobile à l'IUT d'Orléans. J'ai développé des applications web et mobile pour des entreprises depuis 2018.</p>
-            <p>Mes passions et compétences actuelles incluent le développement web, le développement mobile, la conception d'interfaces utilisateurs, le marketing digital et la stratégie digitale.</p>
-            <p>Je suis disponible pour vous renseigner sur mes compétences, mes expériences et mes projets.</p>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <img src="images/logo.jpg" alt="Ma photo"/>
+            <div>
+                <p>Je suis actuellement en formation de développeur web et mobile à l'IUT d'Orléans.</p>
+                <p>J'ai développé des applications web et mobile pour des entreprises depuis 2018.</p>
+                <p>Mes compétences incluent le développement web, le développement mobile, la conception d'interfaces utilisateurs, le marketing digital et la stratégie digitale.</p>
+                <p>Je suis disponible pour échanger sur mes expériences et mes projets.</p>
             </div>
-           </div>
         </section>
 
-
-        <section>
-            <h2>Passions</h2> 
+        <section id="passions">
+            <h2>Passions</h2>
+            <img src="images/passion.jpg" alt="Ma photo"/>
             <ul>
-                <li>Développeur web et mobile depuis 2018</li>
-                <li>Développeur web et mobile depuis 2015</li>
-                <li>Développeur web et mobile depuis 2012</li>
+                <li>Développement web et mobile</li>
+                <li>Conception d'UI/UX</li>
+                <li>Stratégie digitale et marketing</li>
             </ul>
         </section>
 
-        <section>
-            <h2>Contacts</h2>
+        <section id="contact">
+            <h2>Contact</h2>
+            <img src="images/contact.jpg" alt="Ma photo"/>
+
             <ul>
-                <li>Téléphone</li>
-                <li>Email </li>
+                <li><strong>Téléphone :</strong> 01 40 93 68 74</li>
+                <li><strong>Email :</strong> anabellekouame49@gmail.com</li>
             </ul>
         </section>
+
+        <button id="btn">Clique-moi !</button>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
