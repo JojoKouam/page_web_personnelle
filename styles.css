@@ -24,6 +24,13 @@ ul {
     padding: 0;
 }
 
+ol {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
 /* Barre de navigation */
 .navbar {
     background-color: #907f7f;
@@ -83,7 +90,7 @@ section {
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Image de profil Follow*/
+/* les diférentes images*/
 img {
     width: 200px;
     height: 185px;
@@ -91,11 +98,19 @@ img {
     margin: 10px;
 }
 
+/* Texte et paragraphe */
+p {
+    font-size: 18px;
+}
+
+/* l*/
+
+
 /* Bouton interactif */
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007BFF;
+    background-color: #464748;
     color: white;
     border: none;
     cursor: pointer;
