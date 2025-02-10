@@ -88,6 +88,8 @@ section {
     width: 50%;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    
+
 }
 
 /* les diférentes images*/
@@ -98,12 +100,18 @@ img {
     margin: 10px;
 }
 
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* Texte et paragraphe */
 p {
     font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
-/* l*/
 
 
 /* Bouton interactif */
